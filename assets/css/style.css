@@ -181,7 +181,6 @@ footer {
     font-size: 13px;
     border-style: none;
     margin-bottom: 10px;
-
 }
 
 .Pics {
@@ -209,3 +208,88 @@ footer {
     color: #ffffff;
     background: #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+    .Middle_Content {
+        width: 960px;
+        margin: 50px 20px;
+    }
+    section {
+        width: 430px;
+    }
+    #Profile_Pic {
+        float: none;
+        width: 80%;
+        height: 300px;
+        margin: 0 10%;
+    }
+    .Main_Section {
+        flex: none;
+        width: 420px;
+        margin: 0 40px;
+        padding bottom: 100px;
+    }
+    header {
+        width: 100%;
+    }
+    .Connect_with_me {
+        flex: none;
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    li {
+        width: 0px;
+    }
+    nav li {
+        display: inline-block;
+        margin: 40px;
+        padding-top: 0px;
+        position: relative;
+    }
+    .relative {
+        margin: auto;
+        width: 120%;
+    }
+    .portfolioPics {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 760px;
+    }
+    .Middle_Content {
+        width: 760px;
+        margin: 50px 20px;
+    }
+    #Profile_Pic {
+        float: left;
+        width: 300px;
+        height: 250px;
+        margin: 0 20px 20px 20px;
+    }
+    .Main_Section {
+        width: 80%;
+        margin: 0 40px;
+        padding bottom: 100px;
+    }
+    header {
+        width: 100%;
+    }
+    .portfolioPics {
+        width: 272px;
+        height: 204px;
+    }
+    .relative {
+        margin: 0px;
+        width: 49.8%;
+    }
+}
+
+@media screen and (max-width: 640px) {}
