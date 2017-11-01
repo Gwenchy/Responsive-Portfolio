@@ -260,13 +260,32 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
+    .topSection{
+        width: 100%;
+    }
     body {
-        width: 760px;
+        width: 768px;
+    }
+    .Connect_with_me {
+        width: 80%;
+        margin: 30px 40px;
     }
     .Middle_Content {
         width: 760px;
         margin: 50px 20px;
+        flex-wrap: wrap;
+    }
+    li {
+        flex: none;
+        margin: 0 80px 0 0;
+    }
+    h3 {
+        text-align: left;
+    }
+    .Icon{
+        margin: 10px;
+        padding: 0;
+        border: 0;
     }
     #Profile_Pic {
         float: left;
@@ -290,6 +309,59 @@ footer {
         margin: 0px;
         width: 49.8%;
     }
+    section {
+        width: 80%;
+        margin: 10%;
+    }
 }
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+    body {
+        width: 640px;
+        display: block;
+    }
+    .container {
+        margin: 0 10px;
+    }
+    .Nav_icon {
+        margin: 10px 40px;
+        padding: 0;
+    }
+    .Middle_Content {
+        width: 80%;
+        margin: 10%;
+    }
+    #Profile_Pic {
+        float: none;
+        width: 370px;
+        height: 250px;
+    }
+    .topSection {
+        display: block;
+        width: 100%;
+    }
+    .emptySpace {
+        width: 0;
+    }
+    .hLeft {
+        width: 100%;
+    }
+    .name {
+        height: 50px;
+    }
+    .navHeader {
+        width: 100%;
+    }
+    .Pics {
+        display: block;
+    }
+    .relative {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .portfolioPics {
+        width: 90%;
+        height: 290px;
+    }
+}
